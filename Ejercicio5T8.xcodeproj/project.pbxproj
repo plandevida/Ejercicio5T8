@@ -28,6 +28,17 @@
 		FBEEECF317329E7300FA8463 /* Ejercicio5T8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ejercicio5T8; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEEECF617329E7300FA8463 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FBEEECF817329E7300FA8463 /* Ejercicio5T8.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ejercicio5T8.1; sourceTree = "<group>"; };
+		FBEEED001732A08B00FA8463 /* Arbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbin.h; sourceTree = "<group>"; };
+		FBEEED011732A08B00FA8463 /* ArbinConCopias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbinConCopias.h; sourceTree = "<group>"; };
+		FBEEED021732A08B00FA8463 /* Arbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbus.h; sourceTree = "<group>"; };
+		FBEEED031732A08B00FA8463 /* Cola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cola.h; sourceTree = "<group>"; };
+		FBEEED041732A08B00FA8463 /* DCola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCola.h; sourceTree = "<group>"; };
+		FBEEED051732A08B00FA8463 /* Excepciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excepciones.h; sourceTree = "<group>"; };
+		FBEEED061732A08B00FA8463 /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hash.h; sourceTree = "<group>"; };
+		FBEEED071732A08B00FA8463 /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		FBEEED081732A08B00FA8463 /* Pila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pila.h; sourceTree = "<group>"; };
+		FBEEED091732A08B00FA8463 /* PilaLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaLE.h; sourceTree = "<group>"; };
+		FBEEED0A1732A08B00FA8463 /* Tabla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabla.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +71,29 @@
 		FBEEECF517329E7300FA8463 /* Ejercicio5T8 */ = {
 			isa = PBXGroup;
 			children = (
+				FBEEECFF1732A04B00FA8463 /* headers */,
 				FBEEECF617329E7300FA8463 /* main.cpp */,
 				FBEEECF817329E7300FA8463 /* Ejercicio5T8.1 */,
 			);
 			path = Ejercicio5T8;
+			sourceTree = "<group>";
+		};
+		FBEEECFF1732A04B00FA8463 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				FBEEED001732A08B00FA8463 /* Arbin.h */,
+				FBEEED011732A08B00FA8463 /* ArbinConCopias.h */,
+				FBEEED021732A08B00FA8463 /* Arbus.h */,
+				FBEEED031732A08B00FA8463 /* Cola.h */,
+				FBEEED041732A08B00FA8463 /* DCola.h */,
+				FBEEED051732A08B00FA8463 /* Excepciones.h */,
+				FBEEED061732A08B00FA8463 /* Hash.h */,
+				FBEEED071732A08B00FA8463 /* Lista.h */,
+				FBEEED081732A08B00FA8463 /* Pila.h */,
+				FBEEED091732A08B00FA8463 /* PilaLE.h */,
+				FBEEED0A1732A08B00FA8463 /* Tabla.h */,
+			);
+			name = headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
